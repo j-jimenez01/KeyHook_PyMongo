@@ -5,7 +5,7 @@ from pymongo import MongoClient
 class Utilities:
     @staticmethod
     def startup():
-        cluster = "mongodb+srv://Phase3:group9@cluster0.cn27rs8.mongodb.net/?retryWrites=true&w=majority"
+        cluster = "MONGODB CONNECTION STRING"
         client = MongoClient(cluster)
         db = client.Phase3
         return db
