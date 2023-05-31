@@ -24,4 +24,4 @@ Before running this project, ensure that you have the following:
    pip install pymongo
    ```
 ## Getting started
-Make sure to put your mongodb connection string inn Utilitites.py
+Make sure to put your mongodb connection string in Utilitites.py
